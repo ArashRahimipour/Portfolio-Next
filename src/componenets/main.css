@@ -1,0 +1,93 @@
+.container-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.wrap-main{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.wrap-main a{
+  padding: 6px;
+}
+
+.link{
+  background-color: #695E93;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.git{
+  background-color: #695E93;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.mail{
+  background-color: #695E93;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.resume{
+  background-color: #695E93;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.name{
+  color: #695E93;
+}
+.wrap-main a:hover{
+  color: #BEAFC2;
+  transition: 0.5 s color;
+}
+
+@media screen and (max-width:768px){
+  .container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-align: justify;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+}
+
+@media screen and (max-width:440px){
+  .container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-align: justify;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+}
+
+@media screen and (max-width:400px){
+  .container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-align: justify;
+    margin-top: 5rem;
+    padding: 10px;
+}
+}

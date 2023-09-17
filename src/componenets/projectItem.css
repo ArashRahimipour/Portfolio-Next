@@ -1,0 +1,15 @@
+.projects{
+  background-color: #DCD2CC;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.wrap-project{
+  padding: 10px;
+}
+
+.info:hover{
+  color: #613659;
+  transition: 0.5s color;
+}
+
