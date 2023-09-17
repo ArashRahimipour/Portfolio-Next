@@ -35,11 +35,11 @@ const NavBar = () => {
             </Link>
           <div className="title">
             <ul className={open ? 'nav-menu active' : 'nav-menu'}>
-              <li><Link onClick={handelburger}  href='about'>About <TbFileDescription/></Link></li>
-              <li><Link onClick={handelburger}  href='projects'>Projects <AiOutlineProject/></Link></li>
-              <li><Link onClick={handelburger}  href='skills'>Skills <AiOutlineTool/></Link></li>
+              <li><Link onClick={handelburger}  href='/about'>About <TbFileDescription/></Link></li>
+              <li><Link onClick={handelburger}  href='/projects'>Projects <AiOutlineProject/></Link></li>
+              <li><Link onClick={handelburger}  href='/skills'>Skills <AiOutlineTool/></Link></li>
               <li><Link href='/resume'>Resume<FiPaperclip/></Link></li>
-              <li><Link onClick={handelburger}  href='contact'>Contact <AiOutlineContacts/></Link></li>
+              <li><Link onClick={handelburger}  href='/contact'>Contact <AiOutlineContacts/></Link></li>
             </ul>
           </div>
           <div className='burger' onClick={handelburger}>
