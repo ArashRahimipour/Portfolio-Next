@@ -1,7 +1,7 @@
 "use client";
 import Image from 'next/image';
 import Link from 'next/link';
-// import {Link } from 'react-scroll'
+// import {Link}  from 'next-scroll'
 import { useState } from 'react';
 import './navBar.css';
 import {FiPaperclip} from 'react-icons/fi';
@@ -36,11 +36,11 @@ const NavBar = () => {
             </Link>
           <div className="title">
             <ul className={open ? 'nav-menu active' : 'nav-menu'}>
-              <li><Link onClick={handelburger}  href='/about'>About <TbFileDescription/></Link></li>
-              <li><Link onClick={handelburger}  href='/projects'>Projects <AiOutlineProject/></Link></li>
-              <li><Link onClick={handelburger}  href='/skills'>Skills <AiOutlineTool/></Link></li>
-              <li><Link href='/resume'>Resume<FiPaperclip/></Link></li>
-              <li><Link onClick={handelburger}  href='/contact'>Contact <AiOutlineContacts/></Link></li>
+              <li><a onClick={handelburger}  href="#about">About <TbFileDescription/></a></li> 
+              <li><a onClick={handelburger}  href="#projects">Projects <AiOutlineProject/></a></li>
+              <li><a onClick={handelburger}  href="#skills">Skills <AiOutlineTool/></a></li>
+              {/* <li><Link href='/resume'>Resume<FiPaperclip/></Link></li> */}
+              <li><Link onClick={handelburger} href= "#contact">Contact <AiOutlineContacts/></Link></li>
             </ul>
           </div>
           <div className='burger' onClick={handelburger}>
