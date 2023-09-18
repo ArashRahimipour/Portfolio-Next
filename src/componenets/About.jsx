@@ -26,11 +26,11 @@ const About = () => {
             websites.You can find my projects in the link below. Furthermore, In my spare, I love to go gym and relaxing.
           </p>
           
-          <Link href='/#projects'>
+          {/* <Link href='/#projects'>
             <p className='text2'>
               Check out some of my latest projects.
             </p>
-          </Link>
+          </Link> */}
         </div>
         <div className='box-img'>
           <Image src={AboutImg} className='img' alt='/'/>
