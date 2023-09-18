@@ -19,7 +19,7 @@ const Contact = () => {
         className='pic-contact'
           src={ContactImg}
           alt='/'
-          width={400}
+          width={350}
         />
         <h2>Arash Rahimipour</h2>
         <p>Front-End Developer</p>
