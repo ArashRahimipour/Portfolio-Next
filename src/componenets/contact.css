@@ -21,7 +21,7 @@
 }
 
 .pic-contact{
-  margin-left: 1rem;
+  margin-left: 1%;
   border-radius: 50%;
 }
 
@@ -172,6 +172,7 @@
 
  .pic-contact{
   width: 100px;
+  margin-left: 4rem;
  }
  
   .contact-form{
@@ -192,7 +193,7 @@
  
   .contact-form{
    height: 430px;
-   margin-left: 6rem;
+   margin-left: 10rem;
   }
   form{
    height: 300px;
@@ -201,6 +202,9 @@
   }
  
  }
+ 
+
+
 
  @media screen and (max-width: 414px) {
   .box-contact{
@@ -225,12 +229,14 @@
 
  .contact-form{
   height: 430px;
+  width: 450px;
   margin-left: 0.2rem;
  }
  form{
   height: 300px;
   margin-bottom: 10rem;
   margin-left: 35px;
+  width: 100%;
  }
 
 }
